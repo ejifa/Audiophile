@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		897C822B1AB0BD5A00A1A233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C822A1AB0BD5A00A1A233 /* AppDelegate.swift */; };
-		897C822D1AB0BD5A00A1A233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C822C1AB0BD5A00A1A233 /* ViewController.swift */; };
 		897C82301AB0BD5A00A1A233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897C822E1AB0BD5A00A1A233 /* Main.storyboard */; };
 		897C82321AB0BD5A00A1A233 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C82311AB0BD5A00A1A233 /* Images.xcassets */; };
-		897C82351AB0BD5A00A1A233 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 897C82331AB0BD5A00A1A233 /* LaunchScreen.xib */; };
 		897C82411AB0BD5A00A1A233 /* AudiophileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C82401AB0BD5A00A1A233 /* AudiophileTests.swift */; };
+		897C824B1AB0BEC300A1A233 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C824A1AB0BEC300A1A233 /* ProfileViewController.swift */; };
+		897C824D1AB0BEDE00A1A233 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C824C1AB0BEDE00A1A233 /* DetailViewController.swift */; };
+		897C824F1AB0BEEA00A1A233 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C824E1AB0BEEA00A1A233 /* AudioViewController.swift */; };
+		897C82511AB0BF3700A1A233 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C82501AB0BF3700A1A233 /* FilterViewController.swift */; };
+		897C82531AB0BF5600A1A233 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C82521AB0BF5600A1A233 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		897C82251AB0BD5A00A1A233 /* Audiophile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audiophile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		897C82291AB0BD5A00A1A233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897C822A1AB0BD5A00A1A233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		897C822C1AB0BD5A00A1A233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		897C822F1AB0BD5A00A1A233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		897C82311AB0BD5A00A1A233 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		897C82341AB0BD5A00A1A233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		897C823A1AB0BD5A00A1A233 /* AudiophileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiophileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		897C823F1AB0BD5A00A1A233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897C82401AB0BD5A00A1A233 /* AudiophileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiophileTests.swift; sourceTree = "<group>"; };
+		897C824A1AB0BEC300A1A233 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		897C824C1AB0BEDE00A1A233 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		897C824E1AB0BEEA00A1A233 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		897C82501AB0BF3700A1A233 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		897C82521AB0BF5600A1A233 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				897C822A1AB0BD5A00A1A233 /* AppDelegate.swift */,
-				897C822C1AB0BD5A00A1A233 /* ViewController.swift */,
 				897C822E1AB0BD5A00A1A233 /* Main.storyboard */,
+				897C82521AB0BF5600A1A233 /* FeedViewController.swift */,
+				897C82501AB0BF3700A1A233 /* FilterViewController.swift */,
+				897C824E1AB0BEEA00A1A233 /* AudioViewController.swift */,
+				897C824C1AB0BEDE00A1A233 /* DetailViewController.swift */,
+				897C824A1AB0BEC300A1A233 /* ProfileViewController.swift */,
 				897C82311AB0BD5A00A1A233 /* Images.xcassets */,
-				897C82331AB0BD5A00A1A233 /* LaunchScreen.xib */,
 				897C82281AB0BD5A00A1A233 /* Supporting Files */,
 			);
 			path = Audiophile;
@@ -193,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				897C82301AB0BD5A00A1A233 /* Main.storyboard in Resources */,
-				897C82351AB0BD5A00A1A233 /* LaunchScreen.xib in Resources */,
 				897C82321AB0BD5A00A1A233 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897C822D1AB0BD5A00A1A233 /* ViewController.swift in Sources */,
+				897C824D1AB0BEDE00A1A233 /* DetailViewController.swift in Sources */,
+				897C824F1AB0BEEA00A1A233 /* AudioViewController.swift in Sources */,
+				897C824B1AB0BEC300A1A233 /* ProfileViewController.swift in Sources */,
 				897C822B1AB0BD5A00A1A233 /* AppDelegate.swift in Sources */,
+				897C82531AB0BF5600A1A233 /* FeedViewController.swift in Sources */,
+				897C82511AB0BF3700A1A233 /* FilterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +254,6 @@
 				897C822F1AB0BD5A00A1A233 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		897C82331AB0BD5A00A1A233 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				897C82341AB0BD5A00A1A233 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
